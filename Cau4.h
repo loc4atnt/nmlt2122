@@ -1,6 +1,8 @@
 #ifndef _Cau4_H_
 #define _Cau4_H_
 
+#include <stdio.h>
+
 struct HocTu {
 
 };

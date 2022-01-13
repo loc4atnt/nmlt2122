@@ -16,11 +16,18 @@ void Cau4() {
 }
 
 void Cau4b(HocTu TuKeo[][100], int m, int n) {
-	
+	char k = 'D';
+	int tong = tong_so_keo(TuKeo, m, n, k);
+	printf("Tong so keo loai %c: %d\n", k, tong);
 }
 
 void Cau4c(HocTu TuKeo[][100], int m, int n) {
-
+	if (ghet_keo_gung(TuKeo, m, n)) {
+		printf("Teo ghet keo gung!");
+	}
+	else {
+		printf("Teo khong ghet keo gung!");
+	}
 }
 
 int tong_so_keo(HocTu TuKeo[][100], int m, int n, char k) {
