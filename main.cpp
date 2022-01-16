@@ -6,10 +6,10 @@
 #include <stdio.h>
 
 int main() {
-	Cau1();
-	Cau2();
-	Cau3();
-	Cau4();
+	//Cau1();
+	//Cau2();
+	//Cau3();
+	//Cau4();
 	Cau5();
 	return 0;
 }

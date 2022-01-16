@@ -4,7 +4,9 @@
 #include <stdio.h>
 
 struct HocTu {
-
+	char loai;
+	int so_luong;
+	bool duoc_cho;
 };
 
 void Cau4();
